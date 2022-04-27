@@ -1,0 +1,7 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","library(tmap)"
+"0","library(sf)"
+"0","library(dplyr)"
+"0","library(ggplot2)"
+"2","Use suppressPackageStartupMessages() to eliminate package startup messages
+"

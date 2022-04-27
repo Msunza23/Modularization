@@ -1,0 +1,17 @@
+"0","```r
+#Load data that is in the folder 'plotting'
+data.afsis <- read_csv(\"plotting_data.csv\")
+```"
+"1","Rows: 1601 Columns: 19
+── Column specification ───────────────────────────────────────────────────────────────────────────────────────────────────
+Delimiter: \",\"
+chr  (5): SSN, Country, Site, Depth, LandCover
+dbl (14): Longitude, Latitude, Cluster, Profile, Clay_8um, CORG, pH, Alox, Feox, Caex, MAT, MAP, PET, CIA
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","```r
+#What are the column specifications?
+head(data.afsis)
+```"

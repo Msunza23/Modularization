@@ -1,0 +1,11 @@
+"0","```r
+table.afsis %>%
+  ggplot(aes(y = CORG, x = LandCover, col = Depth))+
+  geom_boxplot(notch = TRUE)+
+  scale_fill_manual(values = color_depth)+
+  scale_y_continuous(\"soil organic carbon [wt-%]\",limits = c(0,10), expand = c(0,0))
+
+```"
+"1","Error in ggplot(., aes(y = CORG, x = LandCover, col = Depth)) : 
+  object 'table.afsis' not found
+"

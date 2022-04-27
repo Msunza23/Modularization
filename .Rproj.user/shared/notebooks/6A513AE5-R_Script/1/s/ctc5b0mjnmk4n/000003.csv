@@ -1,0 +1,13 @@
+"0","```r
+#Adjust column specification
+table.afsis <- data.afsis %>%
+  mutate(Depth = as.factor(Depth))
+str(table.afsis$Depth)
+```"
+"1"," Factor w/ 2 levels \"Subsoil\",\"Topsoil\": 2 2 1 2 2 1 2 1 1 2 ...
+"
+"0","```r
+table.afsis$Depth <- factor(table.afsis$Depth, levels = c(\"Topsoil\",\"Subsoil\"), 
+                            ordered =TRUE)
+
+```"

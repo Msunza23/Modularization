@@ -1,0 +1,10 @@
+"0","```r
+#Map the sampling locations by using the package tmap (sf is needed as well)
+#A lot of geospatial analysis can be done in R - there is a lot to explore!
+#install.packages(\"tmap\")
+#installed.packages(\"sf\")
+library(tmap)
+```"
+"1","
+Restarting R session...
+"
